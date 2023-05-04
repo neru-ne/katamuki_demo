@@ -6,5 +6,9 @@ export default defineConfig({
     postcss: {
       plugins: [autoprefixer],
     }
+  },
+  build:{
+    outDir: 'docs',
+    // assetsDir: '',
   }
 });
