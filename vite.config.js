@@ -8,6 +8,7 @@ export default defineConfig({
     }
   },
   //github pages用
+  base: './',
   build:{
     outDir: 'docs',
     assetsDir: '',
