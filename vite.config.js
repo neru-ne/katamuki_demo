@@ -7,6 +7,7 @@ export default defineConfig({
       plugins: [autoprefixer],
     }
   },
+  //github pages用
   build:{
     outDir: 'docs',
     assetsDir: '',
